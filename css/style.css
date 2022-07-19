@@ -7,3 +7,47 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.sectionMargin{
+    margin-bottom: 150px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/* Header CSS */
+.header{
+    background: #0F0826;
+    padding: 30px 0;
+}
+.top_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_navigation .logo {
+    display: flex;
+    align-items: center;
+}
+.top_navigation .logo img {
+    width: 50px;
+}
+.top_navigation .logo h3 {
+    color: #fff;
+}
+.top_navigation .navigation_menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.top_navigation .navigation_menu li a {
+    color: yellow;
+    text-transform: uppercase;
+}
