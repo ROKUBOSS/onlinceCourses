@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #0F0826;
+}
 .container{
     width: 1110px;
     margin: 0 auto;
@@ -20,17 +23,27 @@ a{
 li{
     list-style: none;
 }
+.btn {
+    background: linear-gradient(1.09deg, #6e1fea -11.78%, #4289ff 198.26%);
+    box-shadow: 0px 4px 10px rgba(31, 13, 69, 0.15);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1;
+    padding: 18px 25px;
+    border-bottom: none;
+    transition: 0.3s;
+}
 
 
 /* Header CSS */
 .header{
-    background: #0F0826;
     padding: 30px 0;
 }
 .top_navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
 .top_navigation .logo {
     display: flex;
@@ -50,4 +63,29 @@ li{
 .top_navigation .navigation_menu li a {
     color: yellow;
     text-transform: uppercase;
+}
+
+
+/* Banner CSS */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.banner_description h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.banner_description p {
+    color: #cbcbcb;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner_description a{
+    color: #fff;
 }
