@@ -89,3 +89,23 @@ li{
 .banner_description a{
     color: #fff;
 }
+
+
+
+/* App overview CSS */
+.app_overview {
+    background: #211548;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+.app_overview > div{
+    text-align: center;
+}
+.app_overview > div > h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
