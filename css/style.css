@@ -196,3 +196,26 @@ h2{
 .offline_playground .offline_playground_img img{
     width: 100%;
 }
+
+
+/* Web course */
+.web_courses_title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.web_courses_title h1 {
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+.web_courses_title h1 span{
+    color: #fcb640;
+}
+.web_courses_title .web_courses_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.web_courses_title .web_courses_link a{
+    color: #fff;
+}
