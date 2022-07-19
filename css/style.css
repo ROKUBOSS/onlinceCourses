@@ -200,7 +200,7 @@ h2{
 
 /* Web course */
 .web_courses_title{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .web_courses_title h1 {
@@ -218,4 +218,59 @@ h2{
 }
 .web_courses_title .web_courses_link a{
     color: #fff;
+}
+.web_courses_detail {
+    background: #211548;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.web_courses_detail_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.web_courses_detail .web_courses_details_text h3{
+    font-size: 28px;
+    color: #fff;
+}
+.web_courses_detail .web_courses_details_text p{
+    color: #fff;
+    margin: 10px 0;
+}
+.web_courses_details_text .web_course_enrolled {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.web_courses_details_text .web_course_enrolled > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.web_courses_details_text .web_course_enrolled > div > h4{
+    color: #fff;
+    font-weight: 500;
+}
+.web_courses_details_text .web_course_enrolled > div > h4 > span{
+    font-weight: 600;
+}
+.web_courses_details_text .web_course_direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.web_courses_details_text .web_course_direction > div {
+    background: #fff;
+    padding: 7px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.web_courses_details_text .web_course_direction > div > span {
+    font-size: 14px;
 }
