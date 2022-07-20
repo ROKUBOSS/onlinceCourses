@@ -223,7 +223,7 @@ h2{
     background: #211548;
     padding: 30px;
     border-radius: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .web_courses_detail_inner{
     display: flex;
@@ -273,4 +273,41 @@ h2{
 }
 .web_courses_details_text .web_course_direction > div > span {
     font-size: 14px;
+}
+.support_and_create_website {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.support_and_create_website .live_support {
+    background: #5B48EE;
+    padding: 30px;
+    border-radius: 30px;
+    height: 557px;
+}
+.support_and_create_website .live_support .live_support_icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.support_and_create_website .live_support h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 10px;
+}
+.support_and_create_website .create_website {
+    background: #FBB240;
+    padding: 30px;
+    border-radius: 30px;
+}
+.support_and_create_website .create_website h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.support_and_create_website .create_website p {
+    font-size: 17px;
+    margin-bottom: 15px;
 }
