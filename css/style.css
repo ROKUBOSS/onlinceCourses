@@ -311,3 +311,60 @@ h2{
     font-size: 17px;
     margin-bottom: 15px;
 }
+
+
+/* Talented Candidate */
+.talented_candidate_title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.talented_candidate_title h1 {
+    margin-bottom: 35px;
+}
+.talented_candidate_title a{
+    color: #fff;
+}
+.talented_candidate_features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.talented_candidate_features .candidate_guides_and_futuristic_developer > div {
+    background: #22174B;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.talented_candidate_features .candidate_guides_and_futuristic_developer .candidate_guides {
+    margin-bottom: 25px;
+}
+.talented_candidate_features .candidate_guides_and_futuristic_developer .candidate_guides h3, .talented_candidate_features .candidate_guides_and_futuristic_developer .futuristic_developer h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.talented_candidate_features .candidate_guides_and_futuristic_developer .candidate_guides p, .talented_candidate_features .candidate_guides_and_futuristic_developer .futuristic_developer p{
+    color: #fff;
+}
+.talented_candidate_features .productive_team {
+    background: #22174B;
+    padding: 30px;
+    border-radius: 30px;
+    height: 442px;
+}
+.talented_candidate_features .productive_team img {
+    margin-bottom: 15px;
+}
+.talented_candidate_features .productive_team h3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.talented_candidate_features .productive_team p {
+    color: #fff;
+}
