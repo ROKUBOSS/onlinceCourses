@@ -368,3 +368,41 @@ h2{
 .talented_candidate_features .productive_team p {
     color: #fff;
 }
+
+
+/* Job Placement CSS */
+.job_placement_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.job_placement_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job_placement_counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.job_placement_counter .job_placement_worldwide h3, .companies_and_manager .connected_companies h3, .companies_and_manager .dedicated_job_placement_manager h3 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+.job_placement_counter .job_placement_worldwide p, .companies_and_manager .connected_companies p, .companies_and_manager .dedicated_job_placement_manager p {
+    color: #fff;
+    text-align: center;
+}
+.job_placement_counter .job_placement_worldwide, .companies_and_manager .connected_companies, .companies_and_manager .dedicated_job_placement_manager {
+    background: #201548;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    height: 260px;
+}
+.companies_and_manager .connected_companies{
+    margin-bottom: 40px;
+}
