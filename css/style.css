@@ -406,3 +406,70 @@ h2{
 .companies_and_manager .connected_companies{
     margin-bottom: 40px;
 }
+
+
+
+/* Footer CSS */
+footer{
+    padding: 80px 0;
+    border-top: 2px solid #201548;
+}
+.footer_info {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_address .footer_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.footer_address .footer_logo img{
+    width: 50px;
+}
+.footer_address .footer_logo h4 {
+    color: #fff;
+    font-weight: 600;
+}
+.footer_address p {
+    color: #fff;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.footer_address p:last-child{
+    padding-bottom: 0;
+}
+.footer_links li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 0;
+    display: inline-block;
+}
+.footer_links li a{
+    padding-bottom: 0;
+}
+.footer_social_links .footer_soical_links_title{
+    margin-bottom: 15px;
+}
+.footer_social_links .footer_soical_links_title h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer_social_links .social_links_div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer_social_links .social_links_div a {
+    font-size: 22px;
+    color: #fff;
+}
+.footer_copyright_text{
+    text-align: center;
+}
+.footer_copyright_text p{
+    font-size: 17px;
+    color: #fff;
+}
