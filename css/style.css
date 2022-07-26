@@ -13,6 +13,7 @@ body{
 a{
     text-decoration: none;
 }
+
 li{
     list-style: none;
 }
@@ -71,6 +72,12 @@ h2{
 .top_navigation .navigation_menu li a {
     color: yellow;
     text-transform: uppercase;
+}
+.top_navigation .navigation_menu li:hover a{
+    color: #4289ff;
+}
+.webo{
+    color: gold;
 }
 
 
