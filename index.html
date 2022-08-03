@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobar School</title>
 
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+
+    <!-- Wow CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/solid.min.css">
@@ -13,6 +20,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon CSS -->
+    <link rel="shortcut icon" href="images/primary-logo/fav-icon.png" type="image/x-icon">
 </head>
 <body>
 <!-- ===================== Header ===================== -->
@@ -27,42 +37,80 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Courses</a></li>
             <li><a href="#">Contact US</a></li>
-            <li><a href="about.html" target="_blank">About Us</a></li>
+            <li><a href="#">About Us</a></li>
             <li><a href="#">Career</a></li>
         </ul>
     </div>
 
     <!-- Banner -->
-    <div class="banner container">
-        <div class="banner_description">
-            <h1>Learn <span class="webo">Web Development</span> to get a job</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quos non ducimus, fugit ipsam praesentium consequatur rem hic repellat ad labore rerum deserunt perspiciatis mollitia.</p>
-            <a href="#" class="btn">Explore More <i class="fas fa-angle-right"></i></a>
+    <div class="banner_main owl-carousel container">
+        <div class="banner item">
+            <div class="banner_description">
+                <h1>Programming Just Got Fun</h1>
+                <p>Personalized, fun, and interactive learning process. Enjoy our gamified courses to master python, mobile app development, cyber security, C programming, C++, and many more.</p>
+                <a href="#" class="btn">Explore More <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="banner_img">
+                <img src="images/banner/banner-phone.png" alt="">
+            </div>
         </div>
-        <div class="banner_img">
-            <img src="images/banner/web.svg" alt="">
+
+        <div class="banner item">
+            <div class="banner_description">
+                <h1 class="banner_2">Learn Web Development to <br> get a job</h1>
+                <p>Come and enjoy unlimited coding support, daily concept clear sessions, real-world projects, job placement service, and many more. And 70% of our successful students get hired internationally.</p>
+                <a href="#" class="btn">Explore More <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="banner_img">
+                <img src="images/banner/web.svg" alt="">
+            </div>
+        </div>
+
+        <div class="banner item">
+            <div class="banner_description">
+                <h1 class="banner_2">Employer: Find the perfect match for your team</h1>
+                <p>Need a smart Developer? Hire extremely hardworking, quick learners and ready to contribute. We trained them months after months to build the growth and learning mindset in them.</p>
+                <a href="#" class="btn">Explore More <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="banner_img">
+                <img src="images/banner/employer.svg" alt="">
+            </div>
+        </div>
+
+        <div class="banner item">
+            <div class="banner_description">
+                <h1 class="last_banner">Startup: Form your cost effective software development team for your team</h1>
+                <p>Come and enjoy the most effective web dev learning process. We provide unlimited coding support,
+                    daily concept clear sessions, real-world projects, job placement service, and many more. And 66% of our successful students get hired internationally</p>
+                <a href="#" class="btn">Explore More <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="banner_img">
+                <img src="images/banner/startup.svg" alt="">
+            </div>
         </div>
     </div>
 
     <!-- App overview -->
-    <div class="app_overview container">
-        <div class="user">
-            <img src="images/1m.svg" alt="">
-            <h2>Users</h2>
+    <div class="wow bounceInUp">
+        <div class="app_overview container">
+            <div class="user">
+                <img src="images/1m.svg" alt="">
+                <h2>Users</h2>
+            </div>
+            <div class="playstore_rating">
+                <img src="images/ratings.svg" alt="">
+                <h2>Playstore Rating</h2>
+            </div>
+            <div class="code_org_win">
+                <img src="images/code.svg" alt="">
+                <h2>Code.org win</h2>
+            </div>
+            <div class="review">
+                <img src="images/review.svg" alt="">
+                <h2>Review</h2>
+            </div>
         </div>
-        <div class="playstore_rating">
-            <img src="images/ratings.svg" alt="">
-            <h2>Playstore Rating</h2>
-        </div>
-        <div class="code_org_win">
-            <img src="images/code.svg" alt="">
-            <h2>Code.org win</h2>
-        </div>
-        <div class="review">
-            <img src="images/review.svg" alt="">
-            <h2>Review</h2>
-        </div>
-    </div>
+    </div>  
 </header>
 
 
@@ -70,8 +118,8 @@
 <main>
     <!-- Best app areas -->
     <section class="best_app_areas container sectionMargin">
-        <div class="best_app_title">
-            <h1>Best android app to <br> <span>learn programming</span></h1>
+        <div class="best_app_title wow fadeInUp">
+            <h1>Best android app to <span>learn programming</span></h1>
             <div class="app_download">
                 <a href="#"><img src="images/google-play.svg" alt=""></a>
                 <a href="#"><img src="images/istore.svg" alt=""></a>                
@@ -79,25 +127,25 @@
         </div>
 
         <div class="download_and_badges">
-            <div class="download_count">
+            <div class="download_count wow slideInLeft">
                 <img src="images/1m-banner.svg" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur id quam inventore sequi ratione laborum!</p>
-                <img src="images/dddd.png" alt="">
+                <p>After learning each programming concept, you will add an element to</p>
+                <img class="mobile_pic" src="images/dddd.png" alt="">
             </div>
             <div class="rewards_badges">
-                <div class="badges">
+                <div class="badges wow fadeInDown">
                     <h4>Rewards Badges</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quisquam!</p>
+                    <p>Our courses are gamified. you can earn superpowers, Surprise points and gifts for your enjoyable learning.</p>
                     <img src="images/badges.png" alt="">
                 </div>
-                <div class="offline_playground">
+                <div class="offline_playground wow fadeInUp">
                     <div class="offline_playground_title"> 
                         <div class="offline_playground_title_img">
                             <img src="images/coder.png" alt="">
                         </div>
                         <div class="offline_playground_title_text">
                             <h4>Offline Playground</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, nisi.</p>
+                            <p>You can get instant support from thousands of learners in the Forum</p>
                         </div>
                     </div>
                     <div class="offline_playground_img">
@@ -110,7 +158,7 @@
 
     <!-- Web courses -->
     <section class="web_courses container sectionMargin">
-        <div class="web_courses_title">
+        <div class="web_courses_title wow fadeInUp">
             <h1><span>Complete guideline</span> from absolute <br> beginners to getting hired.</h1>
             <div class="web_courses_link">
                 <a href="#" class="btn">Explore Course <i class="fas fa-angle-right"></i></a>
@@ -118,53 +166,55 @@
             </div>
         </div>
 
-        <div class="web_courses_detail">
+        <div class="web_courses_detail wow slideInRight">
             <div class="web_courses_detail_inner">
                 <div class="web_courses_detail_img">
                     <img src="images/course-thumbnails.png" alt="">
                 </div>
                 
                 <div class="web_courses_details_text">
-                    <h3>Complete Web Development Course with Jhankar Mahbub</h3>
+                    <h3>Complete Web Development Course with Rakibul Islam</h3>
                     <p>Enjoy the most effective and enjoyable journey with interactive lessons and guided support to become a web developer.</p>
-                    <div class="web_course_enrolled">
-                        <div class="enrolled">
-                            <img src="images/users.png" alt="">
-                            <h4><span>10K+</span> <br>Enrolled</h4>
+                    <div class="web_course_introlled_and_direction">
+                        <div class="web_course_enrolled">
+                            <div class="enrolled">
+                                <img src="images/users.png" alt="">
+                                <h4><span>10K+</span> <br>Enrolled</h4>
+                            </div>
+                            <div class="got_hired">
+                                <img src="images/rating.png" alt="">
+                                <h4><span>1K</span> <br>Got Hired</h4>
+                            </div>
+                            <div class="month_required">
+                                <img src="images/calendar.png" alt="">
+                                <h4><span>5</span> <br>Month Required</h4>
+                            </div>
                         </div>
-                        <div class="got_hired">
-                            <img src="images/rating.png" alt="">
-                            <h4><span>1K</span> <br>Got Hired</h4>
-                        </div>
-                        <div class="month_required">
-                            <img src="images/calendar.png" alt="">
-                            <h4><span>5</span> <br>Month Required</h4>
-                        </div>
-                    </div>
-
-                    <div class="web_course_direction">
-                        <div class="web_courses_video">
-                            <img src="images/info1.png" alt="">
-                            <span>800+ Videos</span>
-                        </div>
-                        <div class="web_courses_quize">
-                            <img src="images/info2.png" alt="">
-                            <span>700+ Quizes</span>
-                        </div>
-                        <div class="web_courses_assignment">
-                            <img src="images/info3.png" alt="">
-                            <span>12 Assignments</span>
-                        </div>
-                        <div class="web_courses_offline_download">
-                            <img src="images/offline.png" alt="">
-                            <span>Offline Download</span>
+    
+                        <div class="web_course_direction">
+                            <div class="web_courses_video">
+                                <img src="images/info1.png" alt="">
+                                <span>800+ Videos</span>
+                            </div>
+                            <div class="web_courses_quize">
+                                <img src="images/info2.png" alt="">
+                                <span>700+ Quizes</span>
+                            </div>
+                            <div class="web_courses_assignment">
+                                <img src="images/info3.png" alt="">
+                                <span>12 Assignments</span>
+                            </div>
+                            <div class="web_courses_offline_download">
+                                <img src="images/offline.png" alt="">
+                                <span>Offline Download</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="support_and_create_website">
+        <div class="support_and_create_website wow fadeInUp">
             <div class="live_support">
                 <div class="live_support_icon">
                     <img src="images/live.svg" alt="">
@@ -175,7 +225,12 @@
             <div class="create_website">
                 <h3>Build 11 professional projects while learning.</h3>
                 <p>Build real-world projects while learning and get international job-placement service.</p>
-                <img src="images/assignment-3.png" alt="">
+                <div class="create_website_slider owl-carousel">
+                    <img src="images/assignment-1.png" alt="" class="item">
+                    <img src="images/assignment-2.png" alt="" class="item">
+                    <img src="images/assignment-3.png" alt="" class="item">
+                    <img src="images/assignment-4.png" alt="" class="item">
+                </div>
             </div>
         </div>
     </section>
@@ -183,13 +238,13 @@
 
     <!-- Talented Candidate -->
     <section class="talented_candidate container sectionMargin">
-        <div class="talented_candidate_title">
+        <div class="talented_candidate_title wow fadeInUp">
             <h1>Find best talented candidate</h1>
             <a href="#" class="btn">Successful Student <i class="fas fa-angle-right"></i></a>
         </div>
 
         <div class="talented_candidate_features">
-            <div class="candidate_guides_and_futuristic_developer">
+            <div class="candidate_guides_and_futuristic_developer wow slideInLeft">
                 <div class="candidate_guides">
                     <img src="images/guides.png" alt="">
                     <div class="candidate_guides_desc">
@@ -205,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="productive_team">
+            <div class="productive_team wow slideInRight">
                 <img src="images/productive.png" alt="">
                 <h3>Productive team</h3>
                 <p>Build high performing teams crafted just for you with the right fit for your specific requirements.</p>
@@ -219,16 +274,16 @@
             <h1>Job placement success</h1>
         </div>
         <div class="job_placement_details">
-            <div class="job_placement_img">
+            <div class="job_placement_img wow slideInLeft">
                 <img src="images/job.png" alt="">
             </div>
             <div class="job_placement_counter">
-                <div class="job_placement_worldwide">
+                <div class="job_placement_worldwide wow slideInDown" data-wow-duration="1s">
                     <img src="images/file.png" alt="">
                     <h3>1000+</h3>
                     <p>Job placement worldwide</p>
                 </div>
-                <div class="companies_and_manager">
+                <div class="companies_and_manager wow slideInRight" data-wow-duration="1s">
                     <div class="connected_companies">
                         <img src="images/document.png" alt="">
                         <h3>500+</h3>
@@ -255,9 +310,9 @@
                     <img src="images/primary-logo/Sobar-primary-logo.png" alt="">
                     <h4>Sobar School</h4>
                 </div>
-                <p><i class="fas fa-map-marker-alt"></i> <span>Level-2, 64, Awal Centre, Shantinagar, Dhaka</span></p>
-                <p><i class="fas fa-envelope"></i> <span>Support: sobarschoolbd@gmail.com</span></p>
-                <p><i class="fas fa-phone-alt"></i> <span > <b>01733-327171</b> (Available : 10:00am to 07:00pm)</span></p>
+                <p><i class="fas fa-map-marker-alt"></i> <span>Level-4, 34, Awal Centre, Banani, Dhaka</span></p>
+                <p><i class="fas fa-envelope"></i> <span>Support: support@programming-hero.com</span></p>
+                <p><i class="fas fa-phone-alt"></i> <span>(Available : 10:00am to 07:00pm)</span></p>
             </div>
             <div class="footer_links">
                 <li><a href="#">Home</a></li>
@@ -267,7 +322,7 @@
             </div>
             <div class="footer_social_links">
                 <div class="footer_soical_links_title">
-                    <h5>Follow US</h5>
+                    <h5>Follow us</h5>
                 </div>
                 <div class="social_links_div">
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -287,6 +342,14 @@
 
 
 
+<!-- Owl Carousel JS -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 
+<!-- Wow JS -->
+<script src="js/wow.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
 </body>
 </html>

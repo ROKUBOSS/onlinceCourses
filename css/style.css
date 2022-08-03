@@ -13,7 +13,6 @@ body{
 a{
     text-decoration: none;
 }
-
 li{
     list-style: none;
 }
@@ -73,12 +72,6 @@ h2{
     color: yellow;
     text-transform: uppercase;
 }
-.top_navigation .navigation_menu li:hover a{
-    color: #4289ff;
-}
-.webo{
-    color: gold;
-}
 
 
 /* Banner CSS */
@@ -89,10 +82,24 @@ h2{
     gap: 50px;
     margin-bottom: 80px;
 }
+.banner_description{
+    width: 60%;
+}
+.banner_img{
+    width: 40%;
+}
 .banner_description h1 {
     font-weight: 700;
     line-height: 80px;
     margin-bottom: 20px;
+}
+.banner_description .banner_2 {
+    font-size: 56px;
+    line-height: 65px;
+}
+.banner_description .last_banner{
+    font-size: 52px;
+    line-height: 60px;
 }
 .banner_description p {
     color: #cbcbcb;
@@ -114,7 +121,7 @@ h2{
     padding: 30px;
     border-radius: 20px;
 }
-.app_overview > div{
+.app_overview .user, .playstore_rating, .code_org_win, .review{
     text-align: center;
 }
 .app_overview > div > h2 {
@@ -149,13 +156,14 @@ h2{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    align-items: center;
 }
 .download_count {
     background: #211548;
     border-radius: 35px;
     padding: 30px 30px 0px 30px;
     text-align: center;
-    height: 1060px;
+    height: 988px;
 }
 .download_count p {
     font-size: 24px;
@@ -291,6 +299,7 @@ h2{
     background: #5B48EE;
     padding: 30px;
     border-radius: 30px;
+    width: 50%;
     height: 557px;
 }
 .support_and_create_website .live_support .live_support_icon {
@@ -308,6 +317,8 @@ h2{
     background: #FBB240;
     padding: 30px;
     border-radius: 30px;
+    width: 50%;
+    overflow: hidden;
 }
 .support_and_create_website .create_website h3 {
     font-size: 36px;
@@ -318,6 +329,13 @@ h2{
     font-size: 17px;
     margin-bottom: 15px;
 }
+.support_and_create_website .create_website .create_website_slider {
+    text-align: center;
+}
+.support_and_create_website .create_website .create_website_slider img{
+    width: 100%;
+}
+
 
 
 /* Talented Candidate */
@@ -479,4 +497,171 @@ footer{
 .footer_copyright_text p{
     font-size: 17px;
     color: #fff;
+}
+
+
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 688px){
+    .container{
+        width: 90%;
+    }
+    .sectionMargin{
+        margin-bottom: 50px;
+    }
+    .top_navigation{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top_navigation .logo{
+        margin-bottom: 50px;
+    }
+    .top_navigation .navigation_menu{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .top_navigation .navigation_menu li a{
+        background: #211548;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 200px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .banner_description, .banner_img{
+        width: 100%;
+    }
+    .banner_description{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .banner_description h1, .banner_description .banner_2, .banner_description .last_banner{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .banner_description p{
+        text-align: center;
+    }
+    .app_overview{
+        flex-direction: column;
+    }
+    .app_overview .user, .playstore_rating, .code_org_win, .review{
+        margin-bottom: 30px;
+    }
+    .app_overview .review{
+        margin-bottom: 0;
+    }
+    .best_app_title h1{
+        font-size: 3rem;
+    }
+    .download_and_badges{
+        flex-direction: column;
+    }
+    .download_count{
+        width: 100%;
+        height: 933px;
+    }
+    .download_count .mobile_pic{
+        width: 100%;
+    }
+    .rewards_badges .badges{
+        width: 100%;
+    }
+    .rewards_badges .badges img{
+        width: 100%;
+    }
+    .rewards_badges .offline_playground {
+        width: 100%;
+        height: 546px;
+    }
+    .web_courses_title h1{
+        font-size: 3rem;
+    }
+    .web_courses_detail .web_courses_details_text h3 {
+        font-size: 25px;
+    }
+    .web_courses_detail_inner{
+        flex-direction: column;
+    }
+    .web_courses_detail_img img{
+        width: 100%;
+    }
+    .web_courses_details_text .web_course_introlled_and_direction {
+        display: flex;
+        gap: 10px;
+    }
+    .web_courses_details_text .web_course_enrolled{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .web_courses_details_text .web_course_enrolled > div > h4 {
+        font-size: 14px;
+    }
+    .web_courses_details_text .web_course_direction{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    .web_courses_details_text .web_course_direction > div{
+        width: 180px;
+    }
+    .support_and_create_website{
+        flex-direction: column;
+    }
+    .support_and_create_website .live_support{
+        width: 100%;
+        height: auto;
+    }
+    .support_and_create_website .live_support h3 {
+        font-size: 25px;
+    }
+    .support_and_create_website .create_website{
+        width: 100%;
+    }
+    .support_and_create_website .create_website h3 {
+        font-size: 30px;
+    }
+    .talented_candidate_title h1 {
+        margin-bottom: 3rem;
+    }
+    .talented_candidate_features{
+        flex-direction: column;
+    }
+    .talented_candidate_features .productive_team {
+        height: auto;
+    }
+    .talented_candidate_features .candidate_guides_and_futuristic_developer .candidate_guides h3, .talented_candidate_features .candidate_guides_and_futuristic_developer .futuristic_developer h3{
+        font-size: 20px;
+    }
+    .talented_candidate_features .candidate_guides_and_futuristic_developer .candidate_guides p, .talented_candidate_features .candidate_guides_and_futuristic_developer .futuristic_developer p{
+        font-size: 14px;
+    }
+    .talented_candidate_features .productive_team h3 {
+        font-size: 20px;
+    }
+    .talented_candidate_features .productive_team p{
+        font-size: 14px;
+    }
+    .job_placement_title h1{
+        font-size: 3rem;
+    }
+    .job_placement_details{
+        flex-direction: column;
+    }
+    .job_placement_counter{
+        flex-direction: column;
+    }
+    .job_placement_img{
+        margin-bottom: 50px;
+    }
+    .footer_info{
+        flex-direction: column;
+        gap: 50px;
+    }
 }
